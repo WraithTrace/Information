@@ -1,0 +1,953 @@
+{
+  "items": [
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "winver",
+      "command": "winver",
+      "description": "Window 버전 / 빌드",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "wmic path softwarelicensingservice get OA3xOriginalProductKey",
+      "command": "wmic path softwarelicensingservice get OA3xOriginalProductKey",
+      "description": "CMD Window Key 확인",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "hostname",
+      "command": "hostname",
+      "description": "컴퓨터 이름",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "whoami",
+      "command": "whoami",
+      "description": "현재 시스템에 접속해 있는 [컴퓨터이름\\사용자계정] 형태의 전체 프로필을 출력",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "echo %username%",
+      "command": "echo %username%",
+      "description": "윈도우 시스템 변수 중 현재 사용자 이름을 담고 있는 %username% 값을 화면에 출력",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "systeminfo",
+      "command": "systeminfo",
+      "description": "상세한 하드웨어 및 운영체제(OS) 시스템 정보",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "msinfo32",
+      "command": "msinfo32",
+      "description": "시스템 정보 요약. CPU, 메인보드 모델명, 바이오스 버전, 램 용량 등을 한눈에 확인할 때 가장 깔끔합니다.",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "dxdiag",
+      "command": "dxdiag",
+      "description": "다이렉트X 진단 도구. 그래픽카드 모델명과 VRAM 용량, 드라이버 버전, 모니터 주사율 등을 확인할 때 유용합니다.",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "sysdm.cpl",
+      "command": "sysdm.cpl",
+      "description": "시스템 속성 창 열기. 컴퓨터 이름 변경, 고급 시스템 설정(가상 메모리, 환경 변수), 정품 인증 상태를 확인할 수 있습니다.",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "devmgmt.msc",
+      "command": "devmgmt.msc",
+      "description": "장치 관리자. 그래픽, 랜카드, 사운드 등 하드웨어 드라이버 오류나 느낌표 뜬 장치를 확인할 때 씁니다.",
+      "group": "시스템 정보 및 하드웨어 사양 확인",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "oobe\\bypassnro",
+      "command": "oobe\\bypassnro",
+      "description": "윈도우 11 초기 설치 시 인터넷 연결 및 마이크로소프트(MS) 계정 강제 로그인을 우회하고 로컬 계정으로 오프라인 설치를 진행하게 해주는 명령어입니다. (설정 화면에서 Shift + F10을 눌러 명령 프롬프트를 켠 뒤 입력)",
+      "group": "윈도우 설치 및 초기 설정",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "netplwiz",
+      "command": "netplwiz",
+      "description": "사용자 계정 제어. 윈도우 부팅 시마다 마이크로소프트 계정 비밀번호나 PIN 번호를 묻지 않고 자동으로 로그인되도록 설정할 때 사용합니다.",
+      "group": "윈도우 설치 및 초기 설정",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "sfc /scannow",
+      "command": "sfc /scannow",
+      "description": "윈도우 시스템 파일이 손상되었거나 알 수 없는 오류가 발생했을 때, 누락되거나 깨진 시스템 파일을 자동으로 검사하고 복구합니다.",
+      "group": "시스템 점검 및 파일 복구",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "DISM.exe /Online /Cleanup-image /Restorehealth",
+      "command": "DISM.exe /Online /Cleanup-image /Restorehealth",
+      "description": "sfc로도 해결되지 않는 윈도우 이미지 파일(OS 근간)의 손상을 마이크로소프트 서버에서 최신 파일로 다운로드하여 복구해 줍니다. (보통 두 명령어를 세트로 자주 씁니다.)",
+      "group": "시스템 점검 및 파일 복구",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "ipconfig /all",
+      "command": "ipconfig /all",
+      "description": "내 컴퓨터의 IP 주소, 게이트웨이, MAC 주소(랜카드 고유 번호), DNS 서버 주소를 상세히 확인합니다.",
+      "group": "네트워크 및 인터넷 관리, cmd 또는 터미널에서 입력",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "ipconfig /flushdns",
+      "command": "ipconfig /flushdns",
+      "description": "인터넷 접속이 자꾸 끊기거나 특정 사이트가 안 열릴 때, PC에 쌓인 DNS 캐시(인터넷 주소 기록)를 초기화하여 네트워크 문제를 해결합니다.",
+      "group": "네트워크 및 인터넷 관리, cmd 또는 터미널에서 입력",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "ping 8.8.8.8 -t",
+      "command": "ping 8.8.8.8 -t",
+      "description": "구글 서버로 지속적인 신호를 보내어 내 인터넷 회선이 끊김(패킷 손실) 없이 안정적으로 연결되어 있는지 실시간으로 테스트합니다. (끝내려면 Ctrl + C)",
+      "group": "네트워크 및 인터넷 관리, cmd 또는 터미널에서 입력",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "diskmgmt.msc",
+      "command": "diskmgmt.msc",
+      "description": "디스크 관리. 새로운 SSD나 HDD를 장착했을 때 파티션을 나누고 드라이브 문자(E드라이브 등)를 할당하거나 포맷할 때 씁니다.",
+      "group": "디스크 및 저장장치 관리",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "cleanmgr",
+      "command": "cleanmgr",
+      "description": "디스크 정리. 윈도우 업데이트 찌꺼기, 임시 파일, 이전 윈도우 설치 파일(Windows.old) 등 불필요한 시스템 용량을 안전하게 삭제해 줍니다.",
+      "group": "디스크 및 저장장치 관리",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "appwiz.cpl",
+      "command": "appwiz.cpl",
+      "description": "프로그램 추가/제거 창 바로 열기. 불필요한 프로그램이나 게임, 애드웨어 등을 깔끔하게 삭제할 때 유용합니다.",
+      "group": "프로그램 및 백그라운드 프로세스 관리",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "CMD",
+      "title": "resmon",
+      "command": "resmon",
+      "description": "리소스 모니터. 작업관리자보다 더 디테일하게 CPU, 메모리, 디스크, 네트워크 사용량을 실시간 그래프와 프로세스별로 분석해 줍니다.",
+      "group": "프로그램 및 백그라운드 프로세스 관리",
+      "platform": "Windows CMD",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-ComputerInfo | Select-Object WindowsProductName, WindowsVersion, OsBuildNumber",
+      "command": "Get-ComputerInfo | Select-Object WindowsProductName, WindowsVersion, OsBuildNumber",
+      "description": "Windows 제품명·버전·빌드 확인",
+      "group": "PC 기본 정보",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "$env:COMPUTERNAME",
+      "command": "$env:COMPUTERNAME",
+      "description": "컴퓨터 이름 확인",
+      "group": "PC 기본 정보",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "$env:USERNAME",
+      "command": "$env:USERNAME",
+      "description": "현재 사용자 이름 확인",
+      "group": "PC 기본 정보",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed",
+      "command": "Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed",
+      "description": "CPU 모델, 코어 수, 논리 프로세서 수, 최대 속도 확인",
+      "group": "하드웨어 사양",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, PartNumber, Capacity, Speed",
+      "command": "Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, PartNumber, Capacity, Speed",
+      "description": "메모리 제조사, 부품 번호, 용량, 속도 확인",
+      "group": "하드웨어 사양",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-CimInstance Win32_BaseBoard | Select-Object Manufacturer, Product, SerialNumber",
+      "command": "Get-CimInstance Win32_BaseBoard | Select-Object Manufacturer, Product, SerialNumber",
+      "description": "메인보드 제조사·모델·일련번호 확인",
+      "group": "하드웨어 사양",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion, AdapterRAM",
+      "command": "Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion, AdapterRAM",
+      "description": "GPU 모델·드라이버·메모리 정보 확인",
+      "group": "하드웨어 사양",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate",
+      "command": "Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate",
+      "description": "BIOS 제조사·버전·출시일 확인",
+      "group": "하드웨어 사양",
+      "platform": "Windows PowerShell",
+      "risk": ""
+    },
+    {
+      "category": "PC",
+      "app": "PowerShell",
+      "title": "(Get-CimInstance -ClassName SoftwareLicensingService).OA3OriginalProductKey",
+      "command": "(Get-CimInstance -ClassName SoftwareLicensingService).OA3OriginalProductKey",
+      "description": "Windows 제품 키 확인",
+      "group": "PC 기본 정보",
+      "platform": "Windows PowerShell",
+      "risk": "주의: 출력에 제품 키가 포함될 수 있으므로 개인 PC에서만 확인하고 결과를 공개 저장소에 올리지 마세요."
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "크기늘리기",
+      "command": "Shift + Alt + R",
+      "description": "글자(크기) 조절 기능",
+      "group": "글자(크기) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "크기줄이기",
+      "command": "Shift + Alt + E",
+      "description": "글자(크기) 조절 기능",
+      "group": "글자(크기) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "자간늘리기",
+      "command": "Shift + Alt + W",
+      "description": "자간(글 사이 간격) 조절 기능",
+      "group": "자간(글 사이 간격) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "자간줄이기",
+      "command": "Shift + Alt + N",
+      "description": "자간(글 사이 간격) 조절 기능",
+      "group": "자간(글 사이 간격) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "행간늘리기",
+      "command": "Shift + Alt + Z",
+      "description": "행간(줄 사이 간격) 조절 기능",
+      "group": "행간(줄 사이 간격) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "행간줄이기",
+      "command": "Shift + Alt + A",
+      "description": "행간(줄 사이 간격) 조절 기능",
+      "group": "행간(줄 사이 간격) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "장평늘리기",
+      "command": "Shift + Alt + K",
+      "description": "장평(넓이) 조절 기능",
+      "group": "장평(넓이) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "장평줄이기",
+      "command": "Shift + Alt + J",
+      "description": "장평(넓이) 조절 기능",
+      "group": "장평(넓이) 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "여백늘리기",
+      "command": "Shift + Alt + Y",
+      "description": "오른쪽 여백 조절 기능",
+      "group": "오른쪽 여백 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "여백줄이기",
+      "command": "Shift + Alt + H",
+      "description": "오른쪽 여백 조절 기능",
+      "group": "오른쪽 여백 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "여백늘리기",
+      "command": "Shift + Alt + F",
+      "description": "왼쪽 여백 조절 기능",
+      "group": "왼쪽 여백 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "여백줄이기",
+      "command": "Shift + Alt + G",
+      "description": "왼쪽 여백 조절 기능",
+      "group": "왼쪽 여백 조절",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "들여쓰기",
+      "command": "Shift + Alt + D",
+      "description": "첫 줄 들여쓰기 / 내어쓰기 기능",
+      "group": "첫 줄 들여쓰기 / 내어쓰기",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "내어쓰기",
+      "command": "Shift + Alt + U",
+      "description": "첫 줄 들여쓰기 / 내어쓰기 기능",
+      "group": "첫 줄 들여쓰기 / 내어쓰기",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "양쪽 정렬 (기본값)",
+      "command": "Shift + Alt + T",
+      "description": "문단정렬 기능",
+      "group": "문단정렬",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "배분 정렬(공간에 맞춤)",
+      "command": "Shift + Alt + M",
+      "description": "문단정렬 기능",
+      "group": "문단정렬",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "왼쪽 정렬",
+      "command": "Shift + Alt + L",
+      "description": "문단정렬 기능",
+      "group": "문단정렬",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "가운데 정렬",
+      "command": "Shift + Alt + C",
+      "description": "문단정렬 기능",
+      "group": "문단정렬",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "오른쪽 정렬",
+      "command": "Shift + Alt + R",
+      "description": "문단정렬 기능",
+      "group": "문단정렬",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "진하게 (Bold)",
+      "command": "Shift + Alt + B",
+      "description": "글자속성 기능",
+      "group": "글자속성",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "기울임 (Italic)",
+      "command": "Shift + Alt + I",
+      "description": "글자속성 기능",
+      "group": "글자속성",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "밑줄 (Underline)",
+      "command": "Shift + Alt + U",
+      "description": "글자속성 기능",
+      "group": "글자속성",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "취소선",
+      "command": "Shift + Alt + S",
+      "description": "글자속성 기능",
+      "group": "글자속성",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "한글",
+      "title": "위 첨자",
+      "command": "Shift + Alt + P",
+      "description": "글자속성 기능",
+      "group": "글자속성",
+      "platform": "한글",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "Adobe Acrobat",
+      "title": "크기늘리기",
+      "command": "Ctrl + Shift + (+)",
+      "description": "크기늘리기 기능",
+      "group": "PDF 편집",
+      "platform": "Adobe Acrobat",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "Adobe Acrobat",
+      "title": "반시계반향",
+      "command": "Ctrl + Shift + (-)",
+      "description": "반시계반향 기능",
+      "group": "PDF 편집",
+      "platform": "Adobe Acrobat",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "QCAR",
+      "command": "QCAR",
+      "description": "용지도 면적 산출",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "VSE",
+      "command": "VSE",
+      "description": "선택한 객체 숨기기",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "MTLT",
+      "command": "MTLT",
+      "description": "문자가 포함된 선종류 생성",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "CORO",
+      "command": "CORO",
+      "description": "복사 후 회전",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "MORO",
+      "command": "MORO",
+      "description": "이동 후 회전",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DELB",
+      "command": "DELB",
+      "description": "도면에 선택한 블룩 삭제",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DCS",
+      "command": "DCS",
+      "description": "종단, 횡단 그리기 추가",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "TBRE",
+      "command": "TBRE",
+      "description": "도각 정렬 재배치",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "EMTT",
+      "command": "EMTT",
+      "description": "도곽 특정 위치 문자 일괄 수정",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "PTM",
+      "command": "PTM",
+      "description": "배치 도면 모형 도면으로 변환",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "MCTE",
+      "command": "MCTE",
+      "description": "여러 도면의 표 엑셀로 전환",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "LLP",
+      "command": "LLP",
+      "description": "도면층 색상 변경",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "NTCO",
+      "command": "NTCO",
+      "description": "문자 내용 하나씩 연속 복사",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "EDB",
+      "command": "EDB",
+      "description": "블록 내부 문자 내용 수정",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DTMT",
+      "command": "DTMT",
+      "description": "단일 문자를 여러 줄 문자 변환",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "MTDT",
+      "command": "MTDT",
+      "description": "여러 줄 문자를 단일 문자 변환",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DAT",
+      "command": "DAT",
+      "description": "문자를 날짜 형식으로 변환",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "FIBP",
+      "command": "FIBP",
+      "description": "선 끊긴 구간 검색",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "REPB",
+      "command": "REPB",
+      "description": "여러 도면 블록 교체/재정의",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "CAV",
+      "command": "CAV",
+      "description": "사용자 높이값 이용하면 면적, 부피 산출",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "QTL",
+      "command": "QTL",
+      "description": "간편 객체 길이 합산",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "FB",
+      "command": "FB",
+      "description": "선택 블록 수량 집계",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "SPV",
+      "command": "SPV",
+      "description": "폴리선 다눈화, 정점 정리",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "CADR",
+      "command": "CADR",
+      "description": "모든 도면 닫기 명령어",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DSC",
+      "command": "DSC",
+      "description": "특수 문자 입력",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DVE2",
+      "command": "DVE2",
+      "description": "폴리선 정점 삭제",
+      "group": "추가",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DVE",
+      "command": "DVE",
+      "description": "폐합된 객체에서 실행할 경우 발생하는 오류 수정",
+      "group": "수정",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "MPL",
+      "command": "MPL",
+      "description": "개별 PDF 삭제가 되지 않는 오류 수정",
+      "group": "수정",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "RET",
+      "command": "RET",
+      "description": "철근 번호의 하단 선이 PL의 경우, 정보를 ㅂㄹ러오지 못하는 오류 수정",
+      "group": "수정",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "REVC",
+      "command": "REVC",
+      "description": "DIMScale 옵션 선택 후, 특정 도면에서 발생 하는 오류 수정",
+      "group": "수정",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "CBL",
+      "command": "CBL",
+      "description": "기호별 사양 집계 기능 추가",
+      "group": "개선",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "WLIB",
+      "command": "WLIB",
+      "description": "절단선 라이브러리 추가",
+      "group": "개선",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "EBB[TRS]",
+      "command": "EBB[TRS]",
+      "description": "명령어 실행 속도 개선",
+      "group": "개선",
+      "platform": "ZWCAD",
+      "risk": ""
+    },
+    {
+      "category": "단축키",
+      "app": "ZWCAD",
+      "title": "DIVD",
+      "command": "DIVD",
+      "description": "대상공간을 선택할 수 있는 설정 추가",
+      "group": "개선",
+      "platform": "ZWCAD",
+      "risk": ""
+    }
+  ],
+  "guides": [
+    {
+      "category": "PC",
+      "app": "Windows 설정",
+      "title": "컴퓨터 이름 변경",
+      "group": "PC 초기 설정",
+      "description": "네트워크에서 이 PC를 식별하는 이름입니다. 영문, 숫자, 하이픈 조합을 권장합니다.",
+      "steps": [
+        "Win + I로 설정을 엽니다.",
+        "시스템에서 이름 바꾸기(이 PC의 이름 바꾸기)를 선택합니다.",
+        "새 이름을 입력하고 다음을 누릅니다.",
+        "재시작을 눌러 변경을 적용합니다."
+      ],
+      "risk": "재시작이 필요합니다."
+    },
+    {
+      "category": "PC",
+      "app": "Windows 계정",
+      "title": "사용자 계정 표시 이름 변경",
+      "group": "PC 초기 설정",
+      "description": "원본 메모에 기록된 netplwiz 방식입니다. 계정 종류에 따라 표시되는 항목과 적용 범위가 다를 수 있습니다.",
+      "steps": [
+        "Win + R을 누르고 netplwiz를 실행합니다.",
+        "대상 계정을 선택하고 속성을 엽니다.",
+        "사용자 이름 및 전체 이름을 확인·수정합니다.",
+        "적용 후 로그아웃하거나 재시작해 반영 여부를 확인합니다."
+      ],
+      "risk": "계정 이름 변경은 프로필 폴더 경로를 자동 변경하지 않습니다. 폴더명 변경과 혼동하지 마세요."
+    },
+    {
+      "category": "네트워크",
+      "app": "Windows 파일 공유 (SMB)",
+      "title": "SMB 공유 접속 문제 점검",
+      "group": "파일 공유",
+      "description": "원본에는 게스트 인증 허용, SMB 서명 요구 해제, 방화벽 비활성화 등 보안을 낮추는 조치가 기록돼 있었습니다. 이 카탈로그에서는 해당 조치를 기본 해결책으로 안내하지 않습니다.",
+      "steps": [
+        "양쪽 PC가 같은 네트워크에 있는지, 대상 PC 이름 또는 IP가 맞는지 확인합니다.",
+        "대상 PC에서 네트워크 검색 및 파일·프린터 공유가 필요한 네트워크 프로필에만 켜져 있는지 확인합니다.",
+        "공유 폴더 권한과 사용자 계정 인증 정보를 확인합니다.",
+        "Windows 방화벽은 끄지 말고, 신뢰하는 사설 네트워크에서 필요한 파일 공유 규칙만 확인합니다.",
+        "조직 PC라면 보안 정책 담당자에게 문의합니다."
+      ],
+      "risk": "원본의 AllowInsecureGuestAuth 활성화, RequireSecuritySignature=0, SMB 서명 해제, 방화벽 전체 비활성화는 인증·무결성·네트워크 보호를 약화할 수 있습니다. 출처·환경 확인 없이 적용하지 마세요."
+    }
+  ],
+  "meta": {
+    "source": "명령어.xlsx",
+    "generated": "2026-11-16"
+  }
+}
